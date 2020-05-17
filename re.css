@@ -1,4 +1,7 @@
-
+div
+{
+    border-radius: 5px;
+    }
 #header
 {
     position: fixed;
@@ -9,6 +12,23 @@
     margin-bottom: 10px
     }
 
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
 
 #contact
 {
@@ -23,8 +43,35 @@ a:hover {
     font-weight: bold;
 }
 
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
 
-
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+    
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    }
     
 h3
 {
@@ -47,13 +94,6 @@ td
 {
     padding: 2px;
     border: 1px solid #E88741;
-    }
-#footer
-{
-    height:40px;
-    clear:both;
-    position: relative;
-    background-color: #C1E3E1;
     }
 
 #course-name
